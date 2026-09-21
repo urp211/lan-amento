@@ -31,8 +31,8 @@
     "typescript": "5.9.3",
     "vite": "7.3.2",
     "vite-plugin-singlefile": "2.3.0",
-    "electron": "^38.1.0",
-    "electron-builder": "^26.0.12"
+    "electron": "22.3.27",
+    "electron-builder": "24.13.3"
   },
   "productName": "Signal TV",
   "main": "electron.cjs",
@@ -49,7 +49,6 @@
       "package.json"
     ],
     "win": {
-      "icon": "build/icon.ico",
       "signExecutable": false,
       "target": [
         {
